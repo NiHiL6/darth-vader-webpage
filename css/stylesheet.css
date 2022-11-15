@@ -3,3 +3,7 @@ header img{
     width: 1000px;
     text-align: center;
 }
+
+body{
+    background-color: red;
+}
