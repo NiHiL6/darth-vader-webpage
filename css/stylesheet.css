@@ -2,6 +2,13 @@ header {
     text-align: center;
 }
 
+header img{
+    height: 300px;
+    width: 500px;
+    border: 10px solid white;
+    border-radius: 100px; 
+}
+
 header h1{
     color: white;
     font-family: 'Sono', sans-serif;
@@ -24,4 +31,8 @@ main p{
 main li{
     color: white;
     font-family: 'Sono', sans-serif;
+}
+
+main a{
+    color: yellow;
 }
