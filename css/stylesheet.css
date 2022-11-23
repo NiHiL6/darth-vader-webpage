@@ -1,3 +1,7 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg)
+}
+
 header {
     text-align: center;
 }
@@ -12,10 +16,6 @@ header img{
 header h1{
     color: white;
     font-family: 'Sono', sans-serif;
-}
-
-body{
-    background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg)
 }
 
 main h2{
@@ -35,4 +35,13 @@ main li{
 
 main a{
     color: yellow;
+}
+
+main li {
+    list-style-type: upper-roman;
+    margin-top: 0.5rem;
+}
+
+main ul{
+    list-style-type: upper-roman;
 }
