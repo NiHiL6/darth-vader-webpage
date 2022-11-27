@@ -2,6 +2,8 @@ body{
     background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg)
 }
 
+/* header CSS code */
+
 header {
     text-align: center;
 }
@@ -9,7 +11,7 @@ header {
 header img{
     height: 300px;
     width: 500px;
-    border: 10px solid white;
+    border: 10px double white;
     border-radius: 100px; 
 }
 
@@ -18,12 +20,16 @@ header h1{
     font-family: 'Sono', sans-serif;
 }
 
+/* main CSS code */
+
 main h2{
+    background-color: rgba(0, 0, 0, 0.500);
     color: white;
     font-family: 'Sono', sans-serif;
 }
 
 main p{
+    background-color: rgba(0, 0, 0, 0.500);
     color: white;
     font-family: 'Sono', sans-serif;
 }
@@ -34,6 +40,7 @@ main li{
 }
 
 main a{
+    background-color: rgba(0, 0, 0, 0.500);
     color: yellow;
 }
 
