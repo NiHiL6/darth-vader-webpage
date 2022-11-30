@@ -2,6 +2,7 @@
 
 :root{
     --FONT:'Sono', sans-serif;
+    --H2-COLOR: yellow;
 }
 
 body{
@@ -30,7 +31,7 @@ header h1{
 
 main h2{
     background-color: rgba(0, 0, 0, 0.500);
-    color: white;
+    color: var(--H2-COLOR);
     font-family: var(--FONT);
 }
 
@@ -47,7 +48,15 @@ main li{
 
 main a{
     background-color: rgba(0, 0, 0, 0.500);
-    color: yellow;
+    color: white;
+}
+
+a:hover{
+    background-color: yellow;
+    color: black;
+}
+a:visited{
+    color: g;
 }
 
 main li {
@@ -57,4 +66,15 @@ main li {
 
 main ul{
     list-style-type: upper-roman;
+}
+
+/* footer css code */
+
+footer h3{
+    color: white;
+    font-family: var(--FONT);
+}
+
+footer button{
+    background-color: yellow;
 }
