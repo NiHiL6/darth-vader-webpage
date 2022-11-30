@@ -1,3 +1,9 @@
+/* VARIABLES */
+
+:root{
+    --FONT:'Sono', sans-serif;
+}
+
 body{
     background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg)
 }
@@ -17,7 +23,7 @@ header img{
 
 header h1{
     color: white;
-    font-family: 'Sono', sans-serif;
+    font-family: var(--FONT);
 }
 
 /* main CSS code */
@@ -25,18 +31,18 @@ header h1{
 main h2{
     background-color: rgba(0, 0, 0, 0.500);
     color: white;
-    font-family: 'Sono', sans-serif;
+    font-family: var(--FONT);
 }
 
 main p{
     background-color: rgba(0, 0, 0, 0.500);
     color: white;
-    font-family: 'Sono', sans-serif;
+    font-family: var(--FONT);
 }
 
 main li{
     color: white;
-    font-family: 'Sono', sans-serif;
+    font-family: var(--FONT);
 }
 
 main a{
