@@ -39,11 +39,14 @@ main p{
     background-color: rgba(0, 0, 0, 0.500);
     color: white;
     font-family: var(--FONT);
+    text-align: center;
 }
 
 main li{
     color: white;
     font-family: var(--FONT);
+    list-style-type: upper-roman;
+    margin-top: 0.5rem;
 }
 
 main a{
@@ -56,23 +59,26 @@ a:hover{
     color: black;
 }
 a:visited{
-    color: g;
-}
-
-main li {
-    list-style-type: upper-roman;
-    margin-top: 0.5rem;
-}
-
-main ul{
-    list-style-type: upper-roman;
+    color: grey;
 }
 
 /* footer css code */
 
-footer h3{
+footer{
     color: white;
     font-family: var(--FONT);
+}
+
+.nav-h2{
+    color: yellow;
+}
+
+footer a{
+    color: white;
+}
+
+footer li{
+    list-style-type: upper-roman;
 }
 
 footer button{
