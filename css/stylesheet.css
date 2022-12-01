@@ -18,16 +18,20 @@ header {
 header img{
     height: 300px;
     width: 500px;
-    border: 10px double white;
+    border: 10px double yellow;
     border-radius: 100px; 
 }
 
 header h1{
-    color: white;
+    color: yellow;
     font-family: var(--FONT);
 }
 
 /* main CSS code */
+
+.hr{
+    border: 1px solid white;
+}
 
 main h2{
     background-color: rgba(0, 0, 0, 0.500);
@@ -47,6 +51,10 @@ main li{
     font-family: var(--FONT);
     list-style-type: upper-roman;
     margin-top: 0.5rem;
+}
+
+.li1{
+    list-style-image: url('saber.png');
 }
 
 main a{
