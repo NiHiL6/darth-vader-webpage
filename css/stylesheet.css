@@ -3,12 +3,16 @@
 :root{
     --FONT:'Sono', sans-serif;
     --H2-COLOR: yellow;
+    --BG-COLOR: rgba(0, 0, 0, 0.500);
 }
 
 body{
-    background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg)
+    background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
 }
 
+.bgcolor {
+    background-color: var(--BG-COLOR);
+}
 /* header CSS code */
 
 header {
