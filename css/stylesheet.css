@@ -57,8 +57,9 @@ main li{
     margin-top: 0.5rem;
 }
 
-.li1{
-    list-style-image: url('saber.png');
+.ul{
+    color: yellow;
+    text-decoration: underline;
 }
 
 main a{
@@ -78,6 +79,7 @@ a:visited{
     float: right;
     width: 175px;
     height: 350px;
+    border: 10px double yellow;
 }
 
 .suitp1 {
