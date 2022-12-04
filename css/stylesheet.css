@@ -74,6 +74,16 @@ a:visited{
     color: grey;
 }
 
+#img {
+    float: right;
+    width: 175px;
+    height: 350px;
+}
+
+.suitp1 {
+    text-align: left;
+}
+
 /* footer css code */
 
 footer{
