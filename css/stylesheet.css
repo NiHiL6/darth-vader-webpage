@@ -33,10 +33,6 @@ header h1{
 
 /* main CSS code */
 
-.hr{
-    border: 1px solid white;
-}
-
 main h2{
     background-color: rgba(0, 0, 0, 0.500);
     color: var(--H2-COLOR);
@@ -57,11 +53,6 @@ main li{
     margin-top: 0.5rem;
 }
 
-.ul{
-    color: yellow;
-    text-decoration: underline;
-}
-
 main a{
     background-color: rgba(0, 0, 0, 0.500);
     color: white;
@@ -71,7 +62,7 @@ a:hover{
     background-color: yellow;
     color: black;
 }
-a:visited{
+a:visited {
     color: grey;
 }
 
@@ -79,11 +70,37 @@ a:visited{
     float: right;
     width: 175px;
     height: 350px;
-    border: 10px double yellow;
+    border: 13px double black;
+    background-color: rgba(255, 255, 0, 0.600);
 }
 
-.suitp1 {
+#helmetid {
+    float: left;
+    width: 250px;
+    margin: 10px 10px 10px 0px;
+} 
+
+#torsoid {
+    float: right;
+}
+
+.suit {
     text-align: left;
+}
+
+.ul{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.hr{
+    border: 1px solid white;
+}
+
+.main {
+    border: 5px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 /* footer css code */
@@ -91,10 +108,6 @@ a:visited{
 footer{
     color: white;
     font-family: var(--FONT);
-}
-
-.nav-h2{
-    color: yellow;
 }
 
 footer a{
@@ -107,4 +120,8 @@ footer li{
 
 footer button{
     background-color: yellow;
+}
+
+.nav-h2{
+    color: yellow;
 }
