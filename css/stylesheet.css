@@ -58,12 +58,20 @@ main a{
     color: white;
 }
 
+video {
+    background-color: white;
+    border: 5px double yellow;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol a{
+    color: yellow;
+}
+
 a:hover{
     background-color: yellow;
     color: black;
-}
-a:visited {
-    color: grey;
 }
 
 #img {
@@ -76,7 +84,8 @@ a:visited {
 
 #helmetid {
     float: left;
-    width: 250px;
+    width: 150px;
+    height: 125px;
     margin: 10px 10px 10px 0px;
 } 
 
@@ -84,7 +93,7 @@ a:visited {
     float: right;
 }
 
-.suit {
+.palign {
     text-align: left;
 }
 
@@ -124,4 +133,8 @@ footer button{
 
 .nav-h2{
     color: yellow;
+}
+
+nav ul{
+    font-size: 15px;
 }

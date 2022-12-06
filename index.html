@@ -11,9 +11,11 @@
     </head>
     <body>
         <!-- header element -->
-        <header>
-            <img src="img/darth-vader-avatar.jpeg" alt="Darth Vader Picture">
-            <h1>Darth Vader</h1>
+        <header >
+            <article id="top">
+                <img src="img/darth-vader-avatar.jpeg" alt="Darth Vader Picture">
+                <h1>Darth Vader</h1>
+            </article>
         </header>
         <!-- main element -->
         <div class="bgcolor">
@@ -59,12 +61,41 @@
                     <div class="main">
                         <h2>Abilities</h2>
                         <ol>
-                            <li><a target="_blank" href="https://starwars.fandom.com/wiki/Force_choke">Force Choke</a></li>
-                            <li><a target="_blank" href="https://starwars.fandom.com/wiki/Telepathy#:~:text=Telepathy%20was%20the%20ability%20to,from%20the%20minds%20of%20others.">Telepathy</a></li>
-                            <li><a target="_blank" href="https://starwars.fandom.com/wiki/Force_healing/Legends">Force Healing</a></li>
-                            <li><a target="_blank" href="https://starwars.fandom.com/wiki/Force_Flight">Force Flight</a></li>
-                            <li><a target="_blank" href="https://starwars.fandom.com/wiki/Tutaminis">Tutaminis</a></li>
-                            <li><a target="_blank" href="https://starwars.fandom.com/wiki/Precognition">Precognition</a></li>
+                            <li class="ul"><a target="_blank" href="https://starwars.fandom.com/wiki/Force_choke">Force Choke</a></li>
+                            <p class="palign">Force choke, a variant of and, at times, synonymous with Force grip, was a dark side Force power where one would use the the Force to choke or strangle a victim, oftentimes with a grip-like gesture. It was a technique of telekinesis that was frequently employed by the Sith and other users of the dark side of the Force, although there were some cases where Jedi or other users of the light side would use the technique.</p>
+                            <video height="250" width="500" controls>
+                                <source src="vid/force-choke.mp4" type="video/mp4">
+                            </video>
+                            
+                            <li class="ul"><a target="_blank" href="https://starwars.fandom.com/wiki/Telepathy#:~:text=Telepathy%20was%20the%20ability%20to,from%20the%20minds%20of%20others.">Telepathy</a></li>
+                            <p class="palign">Telepathy, known to the Chiss as Second Sight, was the ability to mentally communicate and interact with other individuals, as well as to transmit and receive information to and from the minds of others.</p>
+                            <video height="250" width="500" controls>
+                                <source src="vid/telepathy.mp4" type="video/mp4">
+                            </video>
+                            
+                            <li class="ul"><a target="_blank" href="https://starwars.fandom.com/wiki/Force_healing/Legends">Force Healing</a></li>
+                            <p class="palign">Force healing, Force heal, or Cure was a power that used the Force to accelerate the natural healing process rapidly, and could be used to heal the most fatal of wounds and injuries.</p>
+                            <video height="250" width="500" controls>
+                                <source src="vid/force-healing.mp4" type="video/mp4">
+                            </video>
+                            
+                            <li class="ul"><a target="_blank" href="https://starwars.fandom.com/wiki/Force_Crush">Force Crush</a></li>
+                            <p class="palign">One of the most violent Force abilities known to the Sith and the Jedi, this deadly technique lifted the opponent into the air and as they were floating, their body would implode as it was crushed by the Force.</p>
+                            <video height="250" width="500" controls>
+                                <source src="vid/force-crush.mp4" type="video/mp4">
+                            </video>
+                            
+                            <li class="ul"><a target="_blank" href="https://starwars.fandom.com/wiki/Tutaminis">Tutaminis</a></li>
+                            <p class="palign">Tutaminis was an umbrella title used by the Jedi Order to classify Force abilities related to energy absorption. Designated as one in a family of Control abilities, tutaminis techniques were taught to Jedi Initiates within the Jedi academy throughout the history of the Order. While taught to all Jedi during the days of the Galactic Republic, it was a rare feat to be capable of dissipating concentrated energy such as what makes up a blasterbolt or lightsaber blade. While it was named and practiced by the Jedi Order,  tutaminis was not restricted to use by Jedi. In fact, most Force-based groups and Force-users in general learned to use or at least control some of the abilities taught at the Temple.</p>
+                            <video height="250" width="500" controls>
+                                <source src="vid/tutaminis.mp4" type="video/mp4">
+                            </video>
+                            
+                            <li class="ul"><a target="_blank" href="https://starwars.fandom.com/wiki/Precognition">Precognition</a></li>
+                            <p class="palign">Precognition, known to the Chiss as "Third Sight," was an ability of the Force that Anakin Skywalker utilized during his time as a Jedi Knight and Sith Lord to peer into the future to know where and when an attack was coming from. Jedi Master Sifo-Dyas was gifted with the power of foresight, and he earned a seat on the Jedi High Council prior to the Invasion of Naboo. Chiss individuals, nearly always females, who were born to be Force-sensitive, were born with the ability of precognition. Because of this, they were used by the Chiss to navigate and pilot their ships through the Unknown Regions, as well as finding and mapping temporary hyperlanes. Such Chiss navigators were known as ozyly-esehembo. Only Chiss children had precognitive power to safely guide their ships at the speed the Aristocras demanded, and as the Chiss grew older the ability faded, regardless of the amount of training or practice the individual undertook. Vah'nya was rare among the Chiss due to keeping her ability after childhood. She also had the ability of Second Sight. Un'hee was also capable of using precognition. The Force-sensitive child Eila could use this ability.</p>
+                            <video height="250" width="500" controls>
+                                <source src="vid/precognition.mov" type="video/mp4">
+                            </video>
                         </ol>
                     </div>
                 </article>
@@ -84,7 +115,7 @@
                             </p>
                             
                             <section>
-                                <p class="suit"><b>his suit consists of:</b></p>
+                                <p class="palign"><b>his suit consists of:</b></p>
                                 <ul>
                                     <li class="ul">Helmet</li>
                                     <img src="img/helmet.webp" alt="Darth Vader's helmet" loading="lazy" id="helmetid">
@@ -112,6 +143,7 @@
                 <nav>
                     <h2 class="nav-h2">Nav Menu</h2>
                     <ul>
+                        <li><a href="#top">Top of website</a></li>
                         <li><a href="#who">Who Is Darth Vader?</a></li>
                         <li><a href="#what">What Does Darth Vader Do?</a></li>
                         <li><a href="#abilities">Abilities</a></li>
