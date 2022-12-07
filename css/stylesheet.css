@@ -1,140 +1,46 @@
 /* VARIABLES */
 
-:root{
+:root {
     --FONT:'Sono', sans-serif;
-    --H2-COLOR: yellow;
     --BG-COLOR: rgba(0, 0, 0, 0.500);
 }
+
 
 body{
     background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
 }
 
-.bgcolor {
+
+/*|| header CSS code*/
+
+header p {
+    color: white;
+    font-family: var(--FONT);
+    text-align: center;
     background-color: var(--BG-COLOR);
-}
-/* header CSS code */
-
-header {
-    text-align: center;
-}
-
-header img{
-    height: 300px;
-    width: 500px;
-    border: 10px double yellow;
-    border-radius: 100px; 
-}
-
-header h1{
-    color: yellow;
-    font-family: var(--FONT);
-}
-
-/* main CSS code */
-
-main h2{
-    background-color: rgba(0, 0, 0, 0.500);
-    color: var(--H2-COLOR);
-    font-family: var(--FONT);
-}
-
-main p{
-    background-color: rgba(0, 0, 0, 0.500);
-    color: white;
-    font-family: var(--FONT);
-    text-align: center;
-}
-
-main li{
-    color: white;
-    font-family: var(--FONT);
-    list-style-type: upper-roman;
-    margin-top: 0.5rem;
-}
-
-main a{
-    background-color: rgba(0, 0, 0, 0.500);
-    color: white;
-}
-
-video {
-    background-color: white;
-    border: 5px double yellow;
-    margin: 0px;
-    padding: 0px;
-}
-
-ol a{
-    color: yellow;
-}
-
-a:hover{
-    background-color: yellow;
-    color: black;
-}
-
-#img {
-    float: right;
-    width: 175px;
-    height: 350px;
-    border: 13px double black;
-    background-color: rgba(255, 255, 0, 0.600);
-}
-
-#helmetid {
-    float: left;
-    width: 150px;
-    height: 125px;
-    margin: 10px 10px 10px 0px;
-} 
-
-#torsoid {
-    float: right;
-}
-
-.palign {
-    text-align: left;
-}
-
-.ul{
-    color: yellow;
     text-decoration: underline;
 }
 
-.hr{
-    border: 1px solid white;
+header img {
+    width: 1300px;
+    height: 600px;
 }
 
-.main {
-    border: 5px solid transparent;
-    border-radius: 5px;
-    padding: 10px;
+/*|| main CSS code */
+
+.maincontainer {
+    border: 10px solid white;
+    background-color: var(--BG-COLOR);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.mainitem {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid yellow;
 }
 
-/* footer css code */
-
-footer{
-    color: white;
-    font-family: var(--FONT);
-}
-
-footer a{
-    color: white;
-}
-
-footer li{
-    list-style-type: upper-roman;
-}
-
-footer button{
-    background-color: yellow;
-}
-
-.nav-h2{
-    color: yellow;
-}
-
-nav ul{
-    font-size: 15px;
-}
+/*|| footer css code */
