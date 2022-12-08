@@ -5,42 +5,237 @@
     --BG-COLOR: rgba(0, 0, 0, 0.500);
 }
 
+a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+a:active {
+    color: rgb(255, 174, 0);
+    background-color: transparent;
+}
 
 body{
     background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
+    font-family: var(--FONT);
 }
-
 
 /*|| header CSS code*/
 
 header p {
     color: white;
-    font-family: var(--FONT);
     text-align: center;
     background-color: var(--BG-COLOR);
     text-decoration: underline;
 }
 
 header img {
-    width: 1300px;
-    height: 600px;
+    width: 2000px;
+    height: 900px;
+    border: 5px double yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*|| main CSS code */
+/*|| MAIN CSS CODE */
+
+div {
+    color: white;
+}
+
+div h2 {
+    margin-left: 5px;
+}
+
+h2 {
+    color: yellow;
+}
+
+h3 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+a {
+    color: yellow;
+}
+
+.main-p {
+    text-align: center;
+}
+
+.padding {
+    padding-bottom: 25px;
+}
+
+/* | FORCE SENSITIVE H3 */
+
+#force-sensitives-h3 {
+    margin-left: 5px;
+}
+
+/* | FORCE SENSITIVE LI */
+
+.li-force-sensitives {
+    margin-top: 5px;
+    list-style-type: upper-roman;
+    color: white;
+}
+
+/* | FORCE SENSITIVE A */
+
+.a-force-sensitives-jedi {
+    color: blue;
+    text-decoration: none;
+}
+
+.a-force-sensitives-jedi:hover {
+    background-color: blue;
+    color: black;
+}
+
+.a-force-sensitives-jedi:active {
+    background-color: transparent;
+    color: turquoise;
+}
+
+.a-force-sensitives-sith {
+    color: red;
+    text-decoration: none;
+}
+
+.a-force-sensitives-sith:hover {
+    background-color: red;
+    color: black;
+}
+
+.a-force-sensitives-sith:active {
+    background-color: transparent;
+    color: orange;
+}
+
+/* | BLASTER H3 */
+
+#blaster-h3 {
+    margin-left: 5px;
+}
+
+/* | BLASTER LI */
+
+.li-blaster {
+    margin-top: 5px;
+    list-style-type: upper-roman;
+    color: white;
+}
+
+/* | BLASTER A */
+
+.a-blaster-rebel {
+    color: green;
+    text-decoration: none;
+}
+
+.a-blaster-rebel:hover {
+    background-color: green;
+    color: black;
+}
+
+.a-blaster-rebel:active {
+    background-color: transparent;
+    color: greenyellow;
+}
+
+.a-blaster-mando {
+    color: brown;
+    text-decoration: none;
+}
+
+.a-blaster-mando:hover {
+    background-color: brown;
+    color: black;
+}
+
+.a-blaster-mando:active {
+    background-color: transparent;
+    color: burlywood;
+}
+
+/* | DROID H3 */
+
+#droid-h3 {
+    margin-left: 5px;
+}
+
+/* | DROID LI */
+
+.li-droid {
+    margin-top: 5px;
+    list-style-type: upper-roman;
+    color: white;
+}
+
+/* | DROID A */
+
+.a-droid {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.a-droid:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.a-droid:active {
+    background-color: transparent;
+    color: wheat;
+}
+
+/* | FLEX CONTAINTERS + ITEMS */
 
 .maincontainer {
-    border: 10px solid white;
     background-color: var(--BG-COLOR);
-    margin: 10px;
-    padding: 20px;
+    height: 1580px;
+    width: 2500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 .mainitem {
-    display: flex;
-    flex-direction: column;
-    border: 10px solid yellow;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 175px;
+    height: 1588px;
+    background-color: rgba(0, 0, 0, 0.750);
 }
 
-/*|| footer css code */
+.maincontainer2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} 
+
+.mainitem2 {
+    width: 99.5%;
+    height: 700px;
+}
+
+.mainitem3 {
+    width: 99%;
+    height: 100%; 
+}
+
+/*| MAIN ITEM 3 CODE */
+
+#main-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*|| FOOTER CSS CODE */
